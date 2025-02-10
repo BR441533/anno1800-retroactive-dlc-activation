@@ -24,10 +24,10 @@ class DLC(Enum):
 
 
 # Path to the savefile, relative to this script file
-SAVE_GAME_PATH = "Autosave.a7s"
+SAVE_GAME_PATH = "Kate Wilberforce.a7s"
 
 # Insert the DLCs to add to the save game
-DLCS_TO_ADD = [DLC.S3_HIGH_LIFE, DLC.S4_NEW_WORLD_RISING]
+DLCS_TO_ADD = [DLC.S2_SEAT_OF_POWER, DLC.S2_BRIGHT_HARVEST, DLC.S2_LAND_OF_LIONS]
 
 
 def get_dlc_name_by_id(id: int):
